@@ -1,9 +1,9 @@
 <!-- Unit 3 Project
 Requirements
-[  ] Two External Links
-[  ] Table (minimum 2 Columns by 3 Rows)
+[ x ] Two External Links
+[ x ] Table (minimum 2 Columns by 3 Rows)
 [  ] Three CSS Rules
-[  ] Three Images
+[ x ] Three Images
 
 Select ONE Additional Feature to Add  
 [ no ] Feature 1 - Include :hover Effect
@@ -29,7 +29,28 @@ Select ONE Additional Feature to Add
             #funfacts {color: rgb(167, 121, 65);}
             #communication {color: rgb(228, 130, 65);}
             .info {font: italic;}
+            .-source {color: black;}
+            table, th, td {
+            border: 1px solid rgb(136, 80, 8);}
+            /* unvisited link */
+a:link {
+  color: rgb(0, 0, 0);
+}
 
+/* visited link */
+a:visited {
+  color: rgb(247, 156, 20);
+}
+
+/* mouse over link */
+a:hover {
+  color: rgb(0, 4, 255);
+}
+
+/* selected link */
+a:active {
+  color: rgb(255, 0, 0);
+}
         </style>
     </head>
     <body>
@@ -48,15 +69,24 @@ Select ONE Additional Feature to Add
         <th>traits</th>
         <th>color </th>
       </tr>
-    </thead>
+    </thead> 
     <tbody>
       <tr>
         <td>small</td>
         <td>typically brown and white</td>
-      </tr>
+        </tr>
+        <tr>
+          <td>long tail</td>
+          <td>black and brown with some white</td>
+        </tr>
+        <tr>
+          <td>small eyes</td>
+          <td>black and pea sized</td>
+        </tr>
     </tbody>
   </table>
-<h2>  <a href="https://en.wikipedia.org/wiki/Squirrel" </a>-source</h2>
+<h4>  <a href="https://en.wikipedia.org/wiki/Squirrel" </a>-source</h4>
+<h4>  <a href="https://blog.nwf.org/2015/01/10-nutty-facts-to-make-you-appreciate-squirrels/" </a> -source </h4>
 </body>
 </html>
 
